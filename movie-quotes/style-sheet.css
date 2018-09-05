@@ -1,0 +1,34 @@
+body{
+	font-family: Neutraface Text;
+	color: white;
+	line-height: 1.3em;
+	background-color: black;
+	margin: 30px;
+
+}
+
+h1{
+	font-family: Bebas Neue;
+	font-size: 40pt;
+
+}
+
+h2{
+	font-style: regular; 
+	margin-left: 10px;
+}
+
+li{
+	margin-left: 50px
+}
+
+b{
+	color: pink;
+
+}
+
+.action{
+	font-style: italic;
+	color: grey
+
+}
