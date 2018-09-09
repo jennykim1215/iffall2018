@@ -1,0 +1,30 @@
+body {
+	font-family: "neutraface 2 text";
+	color: #EC5A3A;
+	background-color: #FFF28F;
+	text-align: center;
+	line-height: 1.6em
+
+}
+
+h1{
+	font-size: 15em;
+	font-weight: bolder;
+
+}
+
+h2{
+	font-size: 3em
+
+}
+
+.day1{
+	font-weight: bold
+
+}
+
+#part {
+	color: #14838E
+
+
+}
