@@ -2,9 +2,10 @@ body{
 	font-family: 'Ubuntu', sans-serif;
 	font-size:17px;
 	margin-left: 100px;
-	margin-top: 50px;
+	margin-top: 100px;
 	line-height: 15px;
-
+	margin-bottom: 100px;
+	background-color: #FFF8D3;
 }
 
 h1{
@@ -14,22 +15,30 @@ h1{
 h2{
 	font-size: 19px;
 	line-height: 30px;
-	margin-left: 20px
+	margin-left: 20px;
+	font-weight: 500;
+}
+
+.subhead{
+	font-size: 20px;
+	color: #56A5A8
 }
 
 #weight{
 	font-size: 30px;
 	margin-top: 15px;
+	color: #928DD3
 
 }
 
 #bold{
-	font-weight: 700
+	font-weight: 700;
 }
 
 #fontstyle{
 	font-size: 30px;
 	margin-top: 15px;
+	color: #928DD3
 }
 
 #italic{
@@ -38,7 +47,8 @@ h2{
 
 #spacing{
 	font-size:30px;
-	margin-top: 15px
+	margin-top: 15px;
+	color: #928DD3
 }
 
 #spaced{
@@ -46,6 +56,29 @@ h2{
 }
 
 #decoration{
-	
+	font-size: 30px;
+	margin-top: 15px;
+	color: #928DD3
 }
 
+#strikethrough{
+	text-decoration: line-through;
+}
+
+#underlined{
+	text-decoration: underline;
+}
+
+#transform{
+	font-size: 30px;
+	margin-top: 15px;
+	color: #928DD3
+}
+
+#uppercase{
+	text-transform: uppercase;
+}
+
+#capitalize{
+	text-transform: capitalize;
+}
