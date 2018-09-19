@@ -1,0 +1,51 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:17px;
+	margin-left: 100px;
+	margin-top: 50px;
+	line-height: 15px;
+
+}
+
+h1{
+	font-size: 80px;
+}
+
+h2{
+	font-size: 19px;
+	line-height: 30px;
+	margin-left: 20px
+}
+
+#weight{
+	font-size: 30px;
+	margin-top: 15px;
+
+}
+
+#bold{
+	font-weight: 700
+}
+
+#fontstyle{
+	font-size: 30px;
+	margin-top: 15px;
+}
+
+#italic{
+	font-style: italic;
+}
+
+#spacing{
+	font-size:30px;
+	margin-top: 15px
+}
+
+#spaced{
+	letter-spacing: 5px;
+}
+
+#decoration{
+	
+}
+
