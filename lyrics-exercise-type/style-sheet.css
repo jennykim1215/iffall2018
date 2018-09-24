@@ -1,0 +1,40 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #EC5A3A;
+	background-color: #FFF28F;
+	text-align: center;
+	line-height: 1.6em
+
+}
+
+h1{
+	font-size: 15em;
+	font-weight: bolder;
+
+}
+
+h2{
+	font-size: 3em
+
+}
+
+.day1{
+	font-weight: bolder;
+	font-size: 1.2em
+
+
+}
+
+.part {
+	color: black;
+	font-size: 1.5em;
+}
+
+.chorus{
+	color: #14838E
+}
+
+img.resize{
+	max-width: 33%;
+	max-height: 33%;
+}
