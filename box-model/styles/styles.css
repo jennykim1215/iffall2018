@@ -1,0 +1,117 @@
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+	color: black;
+}
+
+header{
+	background-size: cover;
+	background-image: url(https://media.audleytravel.com/-/media/images/home/southeast-asia/the-philippines/best-time-to-visit/istock_000016261785_fullphilippineshundredislands_800x2400.jpg?w=1800&q=80);
+	height: 370px;
+	padding-top: 110px;
+}
+h1{
+	text-align: center;
+	font-size: 83px;
+	margin-top: 50px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+h2{
+	text-align: center;
+	font-size: 32.5px;
+	margin-bottom: 220px;
+	margin-top: 0;
+
+}
+
+h3{
+	font-size: 40px;
+	text-align: center;
+	background-color: white
+
+}
+
+img{
+	float: right;
+	width: 400px;
+	height: 300px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+.parag{
+	font-size: 18px;
+	padding-left: 160px;
+	padding-right: 0px;
+	line-height: 23px;
+}
+
+section.one{
+	padding-right: 150x;
+	padding-bottom: 50px;
+	background-color: white
+}
+
+section.two{
+	width: 961px;
+	margin-top: 
+	margin-bottom: 100px;
+	padding-left: 120px;
+	padding-right: 200px;
+	background-color: white;
+}
+
+section.three{
+	margin-top: 100px;
+}
+
+section.four{
+	font-size: 18px;
+	line-height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2110px;
+    margin-bottom: -2000px;
+	width: 960px;
+	background-color: white;
+}
+
+div.ending{
+	font-size: 24px;
+	line-height: 33px;
+	margin-bottom: -2000px;
+	text-align: center;
+	background-color: white;
+	padding-left: 400px;
+	padding-right: 400px;
+}
+
+div.imagesection{
+	width: 50%;
+	display: inline-block;
+	margin-bottom: 10px;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+div.imagesection h4{
+	font-weight: bolder;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+div.imagesection p{
+	margin-top: 0px;
+	line-height: 22px;
+	margin-bottom: 40px;
+}
+
+div.imagesection img{
+	width: 200px;
+	height: 150px;	
+	float: left;
+	margin-right: 10px;
+	margin-top: 0px
+}
