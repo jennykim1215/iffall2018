@@ -1,0 +1,645 @@
+
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#main_content {
+	margin: 40px;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+a#btn_spotify {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #2ebd59;
+	border: 2px solid #2ebd59;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_spotify:hover {
+	background-color: #fff;
+	border: 2px solid #000;
+	color: #000;
+}
+
+a#btn_twitter {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 105px;
+	padding: 10px 30px 0 30px;
+	background-color: #56cdf1;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_twitter:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+	background: #2ebfec; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+}
+
+
+a#btn_amazon {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background-color: #232f3e;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+}
+
+a#btn_amazon:hover {
+	background-color: #fc9a18;
+}
+
+a#btn_indiegogo {
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: #fff;
+	color: #eb1478;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: -2px;
+}
+
+a#btn_indiegogo:hover {
+	color: #fff;
+	background-color: #eb1478;
+}
+
+a#btn_cocacola {
+	width:120px;
+	height:120px;
+	background-color:red;
+	display:inline-block;
+	border-radius:50%;
+	margin-top:60px;
+}
+a#btn_cocacola:hover {
+	width:120px;
+	height:120px;
+	background-color:black;
+	display:inline-block;
+	border-radius:50%;
+	margin-top:60px;
+	
+}
+a#btn_cocacola img {
+	max-width:100px;
+	display: inline-block;
+	margin-top:40px;
+}
+
+a#btn_apple {
+	width:120px;
+	height:120px;
+	background-color: #D8D8D8;
+	display:inline-block;
+	border-radius:50%;
+	margin-top:60px;
+}
+
+a#btn_apple:hover {
+	width:120px;
+	height:120px;
+	background-color: grey;
+	display:inline-block;
+	border-radius:50%;
+	margin-top:60px;
+}
+
+a#btn_apple img {
+	max-width:60px;
+	display: inline-block;
+	margin-top:17px;
+	margin-right:1px;
+}
+
+a#btn_ibm {
+	width:130px;
+	height:100px;
+	display:inline-block;
+	border-radius:15px;
+	margin-top:50px;
+}
+
+a#btn_ibm img {
+	max-width:100px;
+	display: inline-block;
+	margin-top:50px;
+	margin-right:1px;
+}
+a#btn_ibm:hover {
+  box-shadow: 0 50px 50px 0px rgba(0,0,0,.1);
+}
+
+a#btn_ibm:hover:before, a#btn_ibm:hover:after {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 130px;
+  height: 100px;
+  border-radius: 15px;
+  z-index: -1;
+  margin-top: -75px;
+}
+
+a#btn_ibm:hover:after {
+  background: #0A2B55;
+}
+
+a#btn_lyft {
+	width:170px;
+	height:60px;
+	display:inline-block;
+	border-radius:30px;
+	margin-top:100px;
+	background-color: #FF0DAB;
+}
+
+a#btn_lyft img{
+	max-width: 50px;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+a#btn_lyft:hover {
+	background:linear-gradient(190deg, #FF0DAB, #FF98DB, #FF0DAB);
+}
+
+a#btn_cn {
+	width:200px;
+	height:135px;
+	display:inline-block;
+	margin-top:60px;
+	margin-right: 10px;
+	background: url(https://s3.amazonaws.com/freebiesupply/large/2x/cartoon-network-logo-png-transparent.png);
+	background-size: 103%
+}
+a#btn_cn:hover {
+	width:210px;
+	height:133px;
+	display:inline-block;
+	margin-top:60px;
+	margin-right: 10px;
+	border-radius:10px;
+	background: url(https://s3.amazonaws.com/freebiesupply/large/2x/cartoon-network-logo-black-and-white.png);
+	background-size: 100%
+}
+
+a#btn_ny {
+	width:200px;
+	height:80px;
+	display:inline-block;
+	border-radius:30px;
+	margin-top:85px;
+}
+
+a#btn_ny img{
+	max-width: 150px;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+a#btn_ny:hover {
+	border: 1.5px solid #000;
+	color: #000;
+}
+
+a#btn_ig {
+	width:120px;
+	height:120px;
+	display:inline-block;
+	margin-top:70px;
+	margin-left: 10px;
+	border-radius:40px;
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2000px-Instagram_logo_2016.svg.png);
+	background-size: 100%
+}
+a#btn_ig:hover {
+	width:110px;
+	height:110px;
+	display:inline-block;
+	margin-top:75px;
+	margin-left: 10px;
+	background: url(http://www.usma.edu/orienteering/SiteAssets/SitePages/Home/The%20New%20Instagram%20Logo%20With%20Transparent%20Background%2011.png?Mobile=1&Source=%2Forienteering%2F%5Flayouts%2Fmobile%2Fdispform%2Easpx%3FList%3D78e4ce47%252D472c%252D4309%252Da7e5%252D2085eeeeaf6b%26ID%3D203%26CurrentPage%3D1);
+	background-size: 100%;
+	background-position: center;
+}
+
+a#btn_fitbit {
+	width:200px;
+	height:80px;
+	display:inline-block;
+	border-radius:30px;
+	margin-top:95px;
+	margin-right: 10px;
+	transition: 0.5s;
+}
+
+a#btn_fitbit img{
+	max-width: 150px;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+a#btn_fitbit:hover {
+	margin-top: 80px;
+}
+
+a#btn_samsung {
+	width:200px;
+	height:80px;
+	display:inline-block;
+	border-radius:30px;
+	margin-top:95px;
+	margin-left: 5px;
+	transition: 0.2s;
+}
+
+a#btn_samsung img{
+	max-width: 160px;
+	display: inline-block;
+	margin-top: 0px;
+}
+
+a#btn_samsung:hover {
+	opacity: 0.6;
+}
+
+a#btn_mogarden {
+	width:160px;
+	height:140px;
+	display:inline-block;
+	border-radius:10px;
+	margin-top:60px;
+	margin-right: 0px;
+}
+
+a#btn_mogarden img{
+	max-width: 150px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 0px;
+}
+
+a#btn_mogarden:hover {
+	border: 1.5px solid #166B16;
+	color: #166B16;
+}
+
+a#btn_nike {
+	width:130px;
+	height:80px;
+	background-color: black;
+	display:inline-block;
+	border-radius:10%;
+	margin-top:80px;
+	transition: 0.5s;
+}
+
+a#btn_nike:hover {
+	width:130px;
+	height:80px;
+	background-color: #FF9135;
+	display:inline-block;
+	border-radius:10%;
+	margin-top:80px;
+}
+
+a#btn_nike img {
+	max-width:100px;
+	display: inline-block;
+	margin-top:15px;
+	margin-left:3px;
+}
+
+
+a#btn_colorrun{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	font-size: 30px;
+	line-height: 30px;
+	text-align: left;
+	display: inline-block;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 70px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+span {
+	color: black;
+}
+
+a#btn_colorrun span#yellow:hover {
+	color: #ffe066;
+}
+
+a#btn_colorrun span#pink:hover {
+	color: hotpink;
+}
+
+a#btn_colorrun span#cyan:hover {
+	color: #1BCEF6;
+}
+
+a#btn_fb {
+	width:30px;
+	height:30px;
+	display:inline-block;
+	border-radius:30px;
+	margin-top:70px;
+	margin-right: 60px;
+	transition: 0.5s;
+}
+
+a#btn_fb img{
+	max-width: 100px;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+a#btn_fb:hover {
+	margin-top: 60px;
+}
+
+a#btn_oldnavy {
+	width:200px;
+	height:80px;
+	display:inline-block;
+	border-radius:30px;
+	margin-top:95px;
+	margin-left: 5px;
+	transition: 0.2s;
+}
+
+a#btn_oldnavy img{
+	max-width: 160px;
+	display: inline-block;
+	margin-top: 0px;
+}
+
+a#btn_oldnavy:hover {
+	opacity: 0.6;
+}
+
+a#btn_army {
+	width:200px;
+	height:80px;
+	display:inline-block;
+	border-radius:30px;
+	margin-top:75px;
+	margin-left: 5px;
+	transition: 0.2s;
+}
+
+a#btn_army img{
+	max-width: 80px;
+	display: inline-block;
+	margin-top: 0px;
+}
+
+a#btn_army:hover {
+	transform: rotateZ(10deg);
+}
+
+a#btn_ideo {
+	width:120px;
+	height:120px;
+	display:inline-block;
+	margin-top:70px;
+	margin-left: 10px;
+	background: url(http://www.jtroll.com/images/tablet/IDEO_box_logo.png);
+	background-size: 100%
+}
+a#btn_ideo:hover {
+	width:120px;
+	height:120px;
+	display:inline-block;
+	margin-top:70px;
+	margin-left: 10px;
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Ideo_logo.svg/2000px-Ideo_logo.svg.png);
+	background-size: 103%;
+	background-position: center;
+}
+
+a#btn_sardella {
+	width:200px;
+	height:80px;
+	display:inline-block;
+	margin-top:95px;
+	margin-left: 5px;
+	transition: 0.3s;
+}
+
+a#btn_sardella img{
+	max-width: 190px;
+	display: inline-block;
+	margin-top: 0px;
+}
+
+a#btn_sardella:hover {
+	opacity: 0.4;
+}
+
+a#btn_ofa {
+	display: inline-block;
+	margin: auto;
+	margin-top: 80px;
+	background-color: white;
+	color: #00D6FF;
+	font-size: 50px;
+	font-family: 'Paytone One', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+a#btn_ofa:hover {
+	width:140px;
+	height:80px;
+	background-color: #FF9135;
+	display:inline-block;
+	border-radius: 10%;
+	margin-top:90px;
+	background-color: white;
+	color: white;
+	background-color: #00D6FF;
+	transition: 0.3s;
+}
+
+a#btn_mk {
+	display: inline-block;
+	margin-top: 80px;
+	margin-left: 10px;
+}
+a#btn_mk img{
+	max-width: 100px;
+	display: inline-block;
+	margin-top: 0px;
+}
+a#btn_mk:hover {
+	transform: scale(1.5);
+	transition: 1s;
+}
+
+a#btn_mollyjogger {
+	width:200px;
+	height:100px;
+	display:inline-block;
+	border-radius:30px;
+	margin-top:70px;
+}
+
+a#btn_mollyjogger img{
+	max-width: 150px;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+a#btn_mollyjogger:hover {
+	border: 1.5px solid #DEDEBA;
+	color: #000;
+}
+
+a#btn_foreflight {
+	width:200px;
+	height:80px;
+	display:inline-block;
+	margin-top:95px;
+	margin-left: 5px;
+	transition: 0.3s;
+}
+
+a#btn_foreflight img{
+	max-width: 190px;
+	display: inline-block;
+	margin-top: 0px;
+}
+
+a#btn_foreflight:hover {
+	opacity: 0.4;
+	margin-top: 80px;
+}
+
+a#btn_electrabike{
+	width:200px;
+	height:80px;
+	display:inline-block;
+	margin-top: 70px;
+}
+
+a#btn_electrabike img{
+	max-width: 120px;
+}
+
+a#btn_electrabike:hover {
+	animation: ease-out;
+	opacity: 0.6;
+	transition: 0.5s;
+
+}
+a#btn_hsn{
+	width:200px;
+	height:80px;
+	display:inline-block;
+	margin-top: 70px;
+	transition: 0.4s;
+}
+
+a#btn_hsn img{
+	max-width: 120px;
+}
+
+a#btn_hsn:hover {
+	margin-top: 80px;
+}
+a#btn_nbc{
+	width:200px;
+	height:80px;
+	display:inline-block;
+	margin-top: 70px;
+	transition: 0.4s;
+}
+
+a#btn_nbc img{
+	max-width: 120px;
+}
+
+a#btn_nbc:hover {
+	transform: rotateZ(-10deg);
+}
+
+a#btn_moo{
+	width:200px;
+	height:80px;
+	display:inline-block;
+	margin-top: 70px;
+	margin-right: 30px;
+	transition: 0.4s;
+}
+
+a#btn_moo img{
+	max-width: 120px;
+}
+
+a#btn_moo:hover {
+	margin-right: 0px;
+}
