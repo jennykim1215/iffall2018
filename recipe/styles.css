@@ -1,0 +1,64 @@
+body{
+	font-family: 'Karla', sans-serif;
+	margin: 10px;
+	background-color: #FFCDCD;
+}
+
+img {
+	width: 100%;
+}
+
+header h1{
+	font-size: 40px;
+	color: #2C435B;
+	margin-left: 10px;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+p.intro{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #2C435B;
+}
+
+section.time{
+	color: #2C435B;
+	font-size: 18px;
+	margin-bottom: 50px;
+	margin-left: 30px;
+	line-height: 30px;
+}
+
+section.ingredients{
+	margin-bottom: 50px;
+}
+section.ingredients h2{
+	color: #2C435B;
+	margin-left: 30px;
+	font-size: 26px;
+
+}
+section.ingredients li{
+	color: #2C435B;
+	margin-left: 30px;
+	font-size: 17px;
+	line-height: 25px;
+}
+
+section.directions{
+	margin-bottom: 100px;
+}
+section.directions h1{
+	color: #2C435B;
+	margin-left: 30px;
+	font-size: 26px;
+
+}
+section.directions li{
+	color: #2C435B;
+	margin-left: 30px;
+	font-size: 17px;
+	line-height: 25px;
+}
