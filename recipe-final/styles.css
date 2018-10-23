@@ -1,0 +1,134 @@
+body{
+	font-family: 'Karla', sans-serif;
+	margin: 10px;
+	background-color: white;
+	margin-left: 10px;
+}
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 30px;
+}
+
+header{
+	background-color:#BC475B;
+	padding-top: 1px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-bottom: 1px;
+}
+header h1{
+	font-size: 30px;
+	color: #F1E7CD;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-kerning: normal;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.footer1{
+	background-color: #BC475B;
+	padding-top: 10px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+p.intro{
+	text-align: center;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #F1E7CD;
+	display: block;
+}
+
+section.time{
+	color: #E8A71B;
+	font-size: 10px;
+	margin-bottom: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.row{
+	background-color: #FCF9F1;
+}
+
+.column {
+    float: center;
+    /*width: 20%;*/
+    /*column-rule-style: dotted;*/
+   	border: 2px dotted #E8A71B;
+   	grid-gap: 0px;
+}
+.column1 {
+    float: center;
+    /*width: 20%;*/
+    /*column-rule-style: dotted;*/
+   	border-left: 2px dotted #E8A71B;
+   	border-right: 2px dotted #E8A71B;
+   	grid-gap: 0px;
+}
+
+
+section.ingredients{
+	margin-bottom: 30px;
+	background-color: #FCF9F1;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border: 2px dotted #E8A71B;
+}
+
+section.ingredients h2{
+	color: #BC475B;
+	font-size: 17px;
+	text-align: center;
+	text-transform: uppercase;
+}
+section.ingredients li{
+	color: #B28118;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+section.directions{
+	margin-bottom: 30px;
+	background-color: #FCF9F1;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-top: 10px;
+	border: 2px dotted #E8A71B;
+}
+section.directions h1{
+	color: #BC475B;
+	font-size: 17px;
+	margin-top: 0px;
+	padding: 0px;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+section.directions li{
+	color: #B28118;
+	font-size: 12px;
+	line-height: 20px;
+	padding-right: 30px;
+}
+
+footer{
+	background-color: #FCF9F1;
+	padding: 20px; 
+	padding-left: 40px;
+}
+
+footer div{
+	color: #B28118;
+	font-size: 10px;
+}
