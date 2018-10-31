@@ -1,0 +1,28 @@
+body{
+	font-family: 'Karla', sans-serif;
+	padding: 50px;
+	width: 80%
+}
+.qna{
+	font-size: 20px;
+}
+.question{
+	font-weight: bold;
+}
+
+.answer{
+	margin-top: 3px;
+	margin-left: 6px;
+}
+
+h1{
+	font-size: 40px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+h3{
+	font-size: 25px;
+}
