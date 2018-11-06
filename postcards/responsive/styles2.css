@@ -1,0 +1,101 @@
+html{
+	margin: 0px;
+
+}
+a {
+	display: block; /* turn the inline element into a box */
+	position: fixed; /* position the anchor fixed to the viewport */
+	top: 0; /* have the top edge of the anchor touch the the top of the viewport */
+	bottom: 0;  /* have the bottom edge of the anchor touch the the bottom of the viewport */
+	left: 0;  /* have the left edge of the anchor touch the the left of the viewport */
+	right: 0;  /* have the right edge of the anchor touch the the right of the viewport */
+	z-index: 100; /* make sure the anchor is the highest thing in the stack order of all elements */
+}
+
+body{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+@media screen and (max-width: 500px){
+	body{
+		background-image: url(img/lily2.jpg);
+		font-family: 'Muli', sans-serif;
+		padding-right: 35%;
+		height: 100%;
+	}
+	div.text{
+		position: fixed;
+		bottom: 0;
+		padding-right: 30%;
+		padding-left: 50px;
+		padding-bottom: 50px;
+		color: white;
+	}
+	div.quote{
+		font-size: 30px;
+	}
+	div.character{
+		font-size: 25px;
+		padding-left: 30px;
+		padding-top: 10px;
+	}
+}
+
+@media screen and (min-width: 500px){
+	body{
+		background-image: url(img/lily.jpg);
+		font-family: 'Muli', sans-serif;
+		padding-right: 35%;
+		height: 100%;
+
+	}
+	div.text{
+		position: fixed;
+		bottom: 0;
+		padding-right: 30%;
+		padding-left: 50px;
+		padding-bottom: 50px;
+		color: white;
+	}
+	div.quote{
+		font-size: 35px;
+	}
+	div.character{
+		font-size: 30px;
+		padding-left: 30px;
+		line-height: 50px;
+	}
+}
+
+@media screen and (min-width: 900px){
+	body{
+		background-image: url(img/lily.jpg);
+		font-family: 'Muli', sans-serif;
+		padding-right: 55%;
+		height: 100%;
+
+	}
+	div.text{
+		position: fixed;
+		bottom: 0;
+		padding-right: 30%;
+		padding-left: 50px;
+		padding-bottom: 50px;
+		color: white;
+	}
+	div.quote{
+		font-size: 40px;
+	}
+	div.character{
+		font-size: 30px;
+		padding-left: 20px;
+		padding-top: 20px;
+		line-height: 40px;
+	}
+}
+
+
+
