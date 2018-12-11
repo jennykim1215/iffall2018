@@ -36,13 +36,13 @@ section.ingredients{
 }
 section.ingredients h2{
 	color: #2C435B;
-	margin-left: 30px;
+	margin-left: 20px;
 	font-size: 26px;
 
 }
 section.ingredients li{
 	color: #2C435B;
-	margin-left: 30px;
+	margin-left: 20px;
 	font-size: 17px;
 	line-height: 25px;
 }
@@ -52,13 +52,14 @@ section.directions{
 }
 section.directions h1{
 	color: #2C435B;
-	margin-left: 30px;
+	margin-left: 20px;
 	font-size: 26px;
 
 }
 section.directions li{
 	color: #2C435B;
-	margin-left: 30px;
+	margin-left: 20px;
 	font-size: 17px;
 	line-height: 25px;
+	margin-right: 20px;
 }

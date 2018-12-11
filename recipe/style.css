@@ -1,0 +1,15 @@
+body{
+	font-family: 'Karla', sans-serif;
+	padding: 50px;
+	width: 80%
+}
+
+.text{
+	margin-top: 3px;
+	margin-left: 6px;
+	font-size: 20px;
+}
+
+h1{
+	font-size: 40px;
+}
